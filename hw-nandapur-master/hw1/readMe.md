@@ -1,0 +1,1 @@
+All code should compile and run just fine.  Used "g++ -g -Wall example.cpp -o example" to compile every program here.  All answers to written questions should be under "hw1.txt".  Outputs.txt is the output file for sum_pairs.  Word1.out is the output file for sentences.  

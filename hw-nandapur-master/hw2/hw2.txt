@@ -1,0 +1,79 @@
+Zachary Nandapurkar
+Problem 1:
+        1a.  Since all that happened was that the repository was cloned, the status of ReadMe would be unmodified.  
+         b.  ReadMe.md would be modified, fun_problem.txt however would be untracked as it was created locally and would not be recognized by git.
+         c. Both files would be staged to commit.
+         d. Both files are modified but not staged at this point since a line was added to the end of them.
+         e. At this point ReadME.md is staged while fun_problem.txt would be unmodified(with appended section) but not staged yet.  fun_problem.txt would be empty since the "checkout" command overwrote the file with what was in the repository.
+         f.In this case there are 3 versions of ReadME.md, one copy before we added the last line that remains staged.  Another is a modified version in the working directory.  Then one more remains in the repository that's even older.
+
+
+
+
+
+
+Problem 2: 
+        Q: Every action line in a makefile must start with a:
+        A: 1. TAB
+        
+        Q: Which action(s) will get called? What compiler command(s) 
+           with what exact parameters will get executed as a result of 
+           the action(s)?
+        A: For make clean.... the clean action 
+           (rm -f $(ODIR)/*.o *~ shape1 shape2 $(IDIR)/*~) gets called.  
+           This removes all of the temporary files ending with a 
+           '~', and binary files.
+           For make shape1... it will first try to meet the dependencies
+           which match the target on line 16 then executing the action 
+           on line 17.  This would be what compiles the .cpp files and 
+           outputs some .o files.  Then it will run the actions under 
+           shape1 which links the .o files and creates the shape1
+           executable.
+           
+        Q:  What is the purpose of a .PHONY rule?
+        A:  The .PHONY rule is in place in case there is another file 
+            called 'clean'.  If this were the case, make wouldn't run
+            the clean rule because it would see that the file already 
+            exists.
+        
+        Q:  What are acceptable names for a makefile? 
+            Select all that applies.
+        A:  Only 2. "Makefile" and 4. "makefile".
+        
+      
+Problem 3:
+        1:A data type that stores the college that won the NCAA basketball 
+        championship each year, in the order they won (i.e. year). You do
+        not need to store the year.
+        A:List of strings (to hold each college name in order of year.
+        
+        2:A data type that would store the SSN of those who have registered
+         to vote. We want to ensure no one can register to vote twice so we
+         would want to do efficient lookups to see if a given SSN is 
+         already present.
+        A:A set of ints (SSNs) implented as a binary search tree so
+            that we can quickly do a lookup.
+            
+        3:a data type that stores all of the 2-letter state postal codes 
+        (e.g. "CA", "NV", "NY", etc.) and all the zip codes that exist in 
+        that particular state. We should be able to quickly determine if, 
+        for a given state, a zip code really does exist in that state.
+        A: A hash map with the state as the key and a set as each value 
+        containing all of the zip codes to be looked up.
+        
+        4:A data type that stores a the list of recently visited 
+          websites (stores the URLs) for each user on a computer.
+        A: A map where the key is the username and the value is a list of 
+           all websites recently visited.
+           
+        5:A data type to store the configuration of a 10x12 maze 
+          (where the walls vs. free spaces are).
+        A:A list of lists of booleans.  
+          
+
+           
+        
+        
+
+
+        

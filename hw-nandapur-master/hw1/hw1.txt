@@ -1,0 +1,69 @@
+Zachary Nandapurkar
+HW1
+
+
+Problem 1
+
+
+	Part (a):  Which of the following are acceptable behaviors in solving homeworks/projects?
+
+		Answer: 
+		1. Looking up information relevant to the course online.
+		3. Talking to my classmates about general approaches about the problems (but no specific coding statements).
+		5. Asking the course staff for help.
+		6. Sitting next to my classmate and coding together as a team or with significant conversation about approach.
+
+
+	Part (b):  To dispute a grade on an assignment you should (list all that apply):
+
+		Answer:
+		2. Raise the concern within 2 weeks of receiving the grade.
+		3. If an assignment, assign your grader an issue on GitHub and if it can't be resolved then go see the TA.
+
+
+	Part(c):  What is the late submission policy?
+
+		Answer:
+		3. Each student has 3 late days of which only 1 can be used per HW
+
+
+	Part(d):  After making a late submission by pushing your code to Gihub you should...
+
+		Answer:
+		2. Complete the online late submission form
+		3. Start the next HW sooner (hint: this is a correct answer)
+
+
+	Part (e):  If you have NO grace days left and it is after the submission deadline, we will accept your assignment under what circumstances.
+
+		Answer:
+		1. None. We will not accept your submission.
+
+
+Problem 2
+
+
+Part (a):  When cloning a Git repo, which of the following should you avoid:
+
+Answer:
+1. Cloning into a folder that itself is a git repo
+2. Cloning into a sync'ed folder like Dropbox or Google Drive
+
+
+Part (b):  Provide the appropriate git command to perform the following operations:
+
+Answer:
+1. The command would be "git add hw1q2b.cpp".
+2. The command would be "git log -p -3".
+
+Part (c):  What is the full command to re-clone your private CSCI104 repo to your VM? Assume you are in an appropriate folder.
+
+The command would be "git clone git@github.com:CSCI104.git"
+
+
+
+
+
+
+
+
